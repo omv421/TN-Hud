@@ -1,0 +1,52 @@
+#base "source_gamemenu.res"
+
+"GameMenu" [$WIN32]
+{
+	"TNDonatorMenu"
+	{
+		"label" "TN Servers"
+		"command" " "
+		"subimage" ""
+		"tooltip" "Use your reserved slot to instantly connect"
+	}
+	"TNButton1"
+	{
+		"label" "(-TN-) Prop Hunt"
+		"command" "engine connect topnotchclan.com:27019"
+		"tooltip" "Prop Hunt"
+	}
+	"TNButton2"
+	{
+		"label" "(-TN-) 24/7 TURBINE"
+		"command" "engine connect topnotchclan.com:27016"
+		"tooltip" "24/7 TURBINE"
+	}
+	"TNButton3"
+	{
+		"label" "(-TN-) Payload Rotation"
+		"command" "engine connect topnotchclan.com:27015"
+		"tooltip" "Payload Rotation"
+	}
+	"SoundRestart"
+	{	"label" "Sound Restart"
+		"command" "engine snd_restart"
+		"Tooltip" "snd_restart"
+	}
+	"Admin"
+	{	"label" "Admin"
+		"command" "engine sm_admin"
+		"Tooltip" "Admin"
+	}
+	"RagdollsOff"
+	{
+		"label"	"Ragdolls Off"
+		"command" "engine ragdolloff"
+		"tooltip" "Ragdolls Off"
+	}
+	"RagdollsOn"
+	{
+		"label"	"Ragdolls On"
+		"command" "engine ragdollon"
+		"tooltip" "Ragdolls On"
+	}
+}
